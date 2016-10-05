@@ -2,7 +2,6 @@
   "name": "beautysalon",
   "version": "1.0.0",
   "description": "Rewrite site to angular 2 from wordpress",
-  "main": "index.js",
   "scripts": {
     "postinstall": "npm i local-web-server -g",
     "start": "ws -s index.html"
@@ -16,5 +15,40 @@
   "bugs": {
     "url": "https://github.com/Hubses/BH-BeautySaloon/issues"
   },
-  "homepage": "https://github.com/Hubses/BH-BeautySaloon#readme"
+  "homepage": "https://github.com/Hubses/BH-BeautySaloon#readme",
+  "dependencies": {
+  "@angular/common": "~2.0.1",
+    "@angular/compiler": "~2.0.1",
+    "@angular/core": "~2.0.1",
+    "@angular/forms": "~2.0.1",
+    "@angular/http": "~2.0.1",
+    "@angular/platform-browser": "~2.0.1",
+    "@angular/platform-browser-dynamic": "~2.0.1",
+    "@angular/router": "~3.0.1",
+    "@angular/upgrade": "~2.0.1",
+    "angular-in-memory-web-api": "~0.1.1",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25",
+    
+    "jquery": "^3.1.1"
+
+  },
+  "devDependencies": {
+    "angular2-polyfill": "0.0.32",
+    "css-loader": "0.23.1",
+    "html-webpack-plugin": "2.22.0",
+    "local-web-server": "1.2.6",
+
+    "rxjs": "^5.0.0-beta.10",
+    "style-loader": "0.13.1",
+    "ts-loader": "0.8.2",
+    "tslint": "3.13.0",
+    "tslint-loader": "2.1.5",
+    "typescript": "^1.8.10",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.2"
+  }
 }
