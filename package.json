@@ -1,0 +1,20 @@
+{
+  "name": "beautysalon",
+  "version": "1.0.0",
+  "description": "Rewrite site to angular 2 from wordpress",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm i local-web-server -g",
+    "start": "ws -s index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hubses/BH-BeautySaloon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hubses/BH-BeautySaloon/issues"
+  },
+  "homepage": "https://github.com/Hubses/BH-BeautySaloon#readme"
+}
