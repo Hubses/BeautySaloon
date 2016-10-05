@@ -1,0 +1,32 @@
+.w3-btn {
+    width: 168px;
+    height: 45px;
+}
+
+.button {
+    padding: 10px;
+}
+
+.main-img {
+    width: 205px;
+    height: 120px;
+}
+
+.main-card {
+    width: 235px;
+    margin: 10px;
+}
+
+.map {
+    margin: 30px;
+    margin-left: 45px;
+}
+
+.reading-box-description {
+    padding: 10px;
+}
+
+.comment-button {
+    width: 260px;
+    font-size: 14px;
+}

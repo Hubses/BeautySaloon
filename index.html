@@ -1,282 +1,574 @@
 <html>
-
 <head>
-	<title>Алена - салон красоты</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-	<style>
-		html,
-		body,
-		h1,
-		h2,
-		h3,
-		h4,
-		h5 {
-			font-family: "Lato", sans-serif
-		}
-		
-		.mySlides {
-			display: none
-		}
-		
-		.w3-left,
-		.w3-right,
-		.w3-tag {
-			cursor: pointer
-		}
-		
-		.w3-tag {
-			height: 15px;
-			width: 15px;
-			padding: 0;
-			margin-top: 6px
-		}
-	</style>
+
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Алёна - это салон красоты, учебный центр и фитнес клуб в Подольске.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- All in One SEO Pack 2.3.4.1 by Michael Torbert of Semper Fi Web Design[427,455] -->
+    <meta name="description" itemprop="description"
+          content="Салон красоты Алена работает уже более 20 лет, оказывая посильную поддержку всем красавицам Подольска. Приходите и вы к нам, вливайтесь в наши стройные ряды."/>
+
+    <meta name="keywords" itemprop="keywords" content="салон красоты, фитнес клуб, учебный центр, магазин косметики"/>
+
+    <link rel="canonical" href="http://www.alena-club.ru/"/>
+    <!-- /all in one seo pack -->
+    <link rel="alternate" type="application/rss+xml" title="Салон красоты «Алена» &raquo; Лента"
+          href="http://www.alena-club.ru/feed/"/>
+    <link rel="alternate" type="application/rss+xml" title="Салон красоты «Алена» &raquo; Лента комментариев"
+          href="http://www.alena-club.ru/comments/feed/"/>
+    <!-- For iPad Retina display -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+    <link rel="alternate" type="application/rss+xml"
+          title="Салон красоты «Алена» &raquo; Лента комментариев к &laquo;СОЦ «Алена»&raquo;"
+          href="http://www.alena-club.ru/sots-alena/feed/"/>
+
+    <meta property="og:title" content="СОЦ «Алена»"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://www.alena-club.ru/"/>
+    <meta property="og:site_name" content="Салон красоты «Алена»"/>
+    <meta property="og:description" content="«Алена»: У Нас Есть Все для Вашей Красоты и Настроения
+Более 100,000 довольных клиентов . «Алена» - ваш компас в мире красоты и здоровья! Заходите к нам, Мы Любим говорить  &quot;Привет&quot;.
+ Записаться!  Наши Акции!"/>
+    <meta property="og:image" content="assets/logo.png"/>
+
+
+    <link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<!-- Navbar -->
-	<ul class="w3-navbar w3-left-align w3-light-grey w3-center w3-top w3-large">
-		<li class="w3-left" style="width:25% !important"><a href="#">Главная</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#plans">Салон красоты</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#about">About</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#contact">Contact</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#plans">Plans</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#about">About</a></li>
-		<li class="w3-left" style="width:25% !important"><a href="#contact">Contact</a></li>
-	</ul>
+<!-- Navbar -->
+<ul class="w3-navbar w3-left-align w3-light-grey w3-center w3-top w3-large">
+    <li class="w3-left"><a href="http://www.alena-club.ru/"><img src="assets/logo.png"></a></li>
+    <li class="w3-right"><a href="#"><i class="fa fa-search"></i></a></li>
+    <li class="w3-right"><a href="#plans">Магазин косметики</a></li>
+    <li class="w3-right"><a href="#contact">Фитнес клуб</a></li>
+    <li class="w3-right"><a href="#about">Учебный центр</a></li>
+    <li class="w3-right"><a href="#plans">Салон красоты</a></li>
+    <li class="w3-right"><a href="#">Главная</a></li>
+</ul>
 
-	<!-- Content -->
-	<div class="w3-content w3-container" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+<!-- Content -->
+<div class="w3-content w3-container" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+    <div>
+        <!-- Slideshow -->
+        <div class="w3-display-container mySlides" style="display: none;">
+            <img style="width:100%" src="./assets/2.jpg">
+            <div class="w3-display-topleft w3-text-white w3-container w3-padding-32 w3-hide-small">
+                <span class="w3-white w3-padding-large w3-animate-bottom">Lorem hipsum</span>
+            </div>
+        </div>
+        <div class="w3-display-container mySlides" style="display: none;">
+            <img style="width:100%" src="./assets/1.jpg">
+            <div class="w3-display-middle w3-text-white w3-container w3-padding-32 w3-hide-small">
+                <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum hipsum</span>
+            </div>
+        </div>
+        <div class="w3-display-container mySlides" style="display: block;">
+            <img style="width:100%" src="./assets/2.jpg">
+            <div class="w3-display-topright w3-text-white w3-container w3-padding-32 w3-hide-small">
+                <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum hipsum</span>
+            </div>
+        </div>
+        <!-- Slideshow next/previous buttons -->
+        <div class="w3-container w3-dark-grey w3-padding-8 w3-xlarge">
+            <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+            <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i>
+            </div>
 
-		<div class="w3-section">
-			<h1><b>Салон красоты</b></h1>
-			<p>ПРИВЕТ!</p>
-		</div>
+            <div class="w3-center">
+                <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+             <span class="w3-tag demodots w3-border w3-transparent w3-hover-white w3-white"
+                   onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+    </div>
 
-		<!-- Slideshow -->
-		<div class="w3-display-container mySlides" style="display: none;">
-			<img style="width:100%" src="./assets/2.jpg">
-			<div class="w3-display-topleft w3-text-white w3-container w3-padding-32 w3-hide-small">
-				<span class="w3-white w3-padding-large w3-animate-bottom">Lorem hipsum</span>
-			</div>
-		</div>
-		<div class="w3-display-container mySlides" style="display: none;">
-			<img style="width:100%" src="./assets/1.jpg">
-			<div class="w3-display-middle w3-text-white w3-container w3-padding-32 w3-hide-small">
-				<span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum hipsum</span>
-			</div>
-		</div>
-		<div class="w3-display-container mySlides" style="display: block;">
-			<img style="width:100%" src="./assets/2.jpg">
-			<div class="w3-display-topright w3-text-white w3-container w3-padding-32 w3-hide-small">
-				<span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum hipsum</span>
-			</div>
-		</div>
+    <div id="main" class="clearfix width-100" style="padding-left:20px;padding-right:20px">
+        <div class="fusion-row" style="max-width:100%;">
+            <div id="content" class="full-width">
+                <div id="post-3991" class="post-3991 page type-page status-publish hentry">
 
-		<!-- Slideshow next/previous buttons -->
-		<div class="w3-container w3-dark-grey w3-padding-8 w3-xlarge">
-			<div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
-			<div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+			<span class="entry-title" style="display: none;">
+			СОЦ «Алена»	</span>
 
-			<div class="w3-center">
-				<span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-				<span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-				<span class="w3-tag demodots w3-border w3-transparent w3-hover-white w3-white" onclick="currentDiv(3)"></span>
-			</div>
-		</div>
+			<span class="vcard" style="display: none;">
+			<span class="fn">
+				<a href="http://www.alena-club.ru/author/admin/" title="Записи admin" rel="author">admin</a>			</span>
+		</span>
 
-		<!-- Grid -->
-		<div class="w3-row">
-			<div class="w3-center w3-padding-64">
-				<span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
-			</div>
-			<div class="w3-col l3 m6 w3-light-grey w3-padding-large">
-				<h3>Design</h3>
-				<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-			</div>
+                    <span class="updated" style="display:none;">2016-06-17T12:10:52+00:00</span>
 
-			<div class="w3-col l3 m6 w3-grey w3-padding-large">
-				<h3>Branding</h3>
-				<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-			</div>
+                    <div class="post-content">
+                        <div class="full-banner"
+                             style="border-color:#e5e4e4;border-bottom-width: 1px;border-top-width: 1px;border-bottom-style: solid;border-top-style: solid;padding-bottom:15px;padding-top:20px;padding-left:0px;padding-right:0px;background-color:no;">
+                            <style type="text/css" scoped="scoped">.fusion-fullwidth-1 {
+                                padding-left: 0px !important;
+                                padding-right: 0px !important;
+                            }</style>
+                            <div class="fusion-row"><h1 style="text-align: center; font-size: 30px !important;">«Алена»:
+                                У Нас <span style="color: #a0ce4e;">Есть Все</span> для Вашей Красоты и Настроения</h1>
+                                <p style="text-align: center; margin-top: -10px;">Более <span
+                                        class="fusion-tooltip tooltip-shortcode" data-animation="" data-delay="0"
+                                        data-placement="top" data-title="100+ клиентов каждую неделю!"
+                                        data-toggle="tooltip"
+                                        data-trigger="hover"><strong>100,000 довольных клиентов</strong></span>. «Алена»
+                                    &#8212; ваш компас в мире красоты и здоровья! Заходите к нам, <span
+                                            class="fusion-tooltip tooltip-shortcode" data-animation="" data-delay="0"
+                                            data-placement="top" data-title="Мы Любим Баловать Наших Клиентов!"
+                                            data-toggle="tooltip"
+                                            data-trigger="hover"><strong>Мы Любим говорить</strong></span> &#171;Привет&#187;.
+                                </p>
+                                <p style="text-align: center;">
 
-			<div class="w3-col l3 m6 w3-dark-grey w3-padding-large">
-				<h3>Consultation</h3>
-				<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-			</div>
+                                <div class="w3-row">
+                                    <div class="w3-container w3-quarter"></div>
+                                    <div class="button w3-container w3-quarter ">
+                                        <button class="w3-btn w3-green"><i class="glyphicon glyphicon-calendar"></i>ЗАПИСАТЬСЯ!
+                                        </button>
+                                    </div>
+                                    <div class="button w3-container w3-quarter ">
+                                        <button class="w3-btn w3-green">НАШИ АКЦИИ!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 20px"></div>
+                        <div class="main-cards">
+                            <div class="w3-row">
+                                <div class="main-card w3-card-4 w3-container w3-quarter">
+                                    <img src="assets/main-img-1.jpg" class="main-img">
+                                    <h2 style="font-size: 25px">Салон Красоты</h2>
+                                    <p>Так приятно после всего негатива, накопившегося в душе, прийти в хороший
+                                        салон и доверить свою красоту чутким рукам мастера.</p>
+                                </div>
+                                <div class="main-card w3-card-4 w3-container w3-quarter">
+                                    <img src="assets/main-img-2.jpg" class="main-img">
+                                    <h2 style="font-size: 25px">Учебный Центр</a></h2>
+                                    <p>Предлагает молодежи города Подольска и Московской области программы
+                                        профессионального и дополнительного профессионального образования.</p>
+                                </div>
+                                <div class="main-card w3-card-4 w3-container w3-quarter">
+                                    <img src="assets/main-img-3.jpg" class="main-img">
+                                    <h2 style="font-size: 25px">Фитнес Клуб</a></h2>
+                                    <p>У нас увлекательно, легко и динамично можно поработать над совершенством
+                                        своего тела. Доброжелательный персонал ответит на все Ваши вопросы.</p>
+                                </div>
+                                <div class="main-card w3-card-4 w3-container w3-quarter">
+                                    <img src="assets/main-img-4.jpg" class="main-img">
+                                    <h2 style="font-size: 25px">Магазин косметики</a>
+                                    </h2>
+                                    <p>Наш магазин является одним из лучших магазинов косметики Подольска. Мы
+                                        предлагаем своим клиентам только качественную профессиональную
+                                        косметику.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="comment">
+                            <div class="small-banner"
+                                 style="border-color:#e5e4e4;border-bottom-width: 1px;border-top-width: 1px;border-bottom-style: solid;border-top-style: solid;padding-bottom:15px;padding-top:20px;padding-left:0px;padding-right:0px;background-color:no;">
+                                <style type="text/css" scoped="scoped">.fusion-fullwidth-1 {
+                                    padding-left: 0px !important;
+                                    padding-right: 0px !important;
+                                }</style>
+                                <div class="w3-row">
+                                    <div class="w3-container w3-third"></div>
+                                    <div class="w3-third w3-container"><img src="assets/logo2x.png"></div>
+                                </div>
+                                <div class="fusion-row"><h1 style="text-align: center; font-size: 30px !important;">
+                                    «Алена»:
+                                    У Нас <span style="color: #a0ce4e;">Есть Все</span> для Вашей Красоты и Настроения
+                                </h1>
+                                    <p style="text-align: center; margin-top: -10px;">Более <span
+                                            class="fusion-tooltip tooltip-shortcode" data-animation="" data-delay="0"
+                                            data-placement="top" data-title="100+ клиентов каждую неделю!"
+                                            data-toggle="tooltip"
+                                            data-trigger="hover"><strong>100,000 довольных клиентов</strong></span>.
+                                        «Алена»
+                                        &#8212; ваш компас в мире красоты и здоровья! Заходите к нам, <span
+                                                class="fusion-tooltip tooltip-shortcode" data-animation=""
+                                                data-delay="0"
+                                                data-placement="top" data-title="Мы Любим Баловать Наших Клиентов!"
+                                                data-toggle="tooltip"
+                                                data-trigger="hover"><strong>Мы Любим говорить</strong></span> &#171;Привет&#187;.
+                                    </p>
+                                </div>
+                            </div>
 
-			<div class="w3-col l3 m6 w3-black w3-padding-large">
-				<h3>Promises</h3>
-				<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-			</div>
-		</div>
+                            <div class="sladeshow-main">
+                                <div style="height: 20px"></div>
+                                <div class="w3-section wrapper"
+                                     style="background-image: url(http://www.alena-club.ru/wp-content/uploads/2013/08/page_bkgd8.jpg); margin-top:0px;margin-bottom:20px;">
+                                    <div class="w3-row">
+                                        <div class="w3-row">
+                                            <div class="w3-col w3-container" style="width:40%">
+                                                <p>
+                                                    <span class="fusion-dropcap dropcap" style="color:#a0ce4e;">С</span>
+                                                    алон красоты «Алена» с первых дней своей работы
+                                                    в далёком 1994 году стал одним из самых востребованных и популярных
+                                                    в нашем городе. Сегодня к вашим услугам дружная
+                                                    команда профессионалов от индустрии красоты, уникальное элитное
+                                                    оборудование, широчайший выбор оказываемых услуг.
+                                                    У нас, словно в лучшем салоне красоты в Подольске, можно получить
+                                                    всевозможные парикмахерские услуги, а также новейшие
+                                                    процедуры по уходу за лицом и телом. Есть среди наших услуг
+                                                    действенные программы и по коррекции фигуры.
+                                                </p>
 
-		<!-- Grid -->
-		<div class="w3-row-padding" id="plans" style="margin:0 -16px">
-			<div class="w3-center w3-padding-64">
-				<h3>Pricing Plans</h3>
-				<p>Choose a pricing plan that fits your needs.</p>
-			</div>
+                                                <p>
+                                                    СОЦ «Алена» – это ещё и фитнес клуб, где доступно, увлекательно,
+                                                    легко и динамично можно поработать над совершенством своего
+                                                    тела. Доброжелательный персонал ответит на все ваши вопросы. Салон
+                                                    красоты «Алена» — выбор умных и красивых людей,
+                                                    уверенных и в себе, и в своей жизни. Вы найдете у нас спасение от
+                                                    стрессов, бурной городской жизни, эмоционального
+                                                    перенапряжения. Так приятно после всего негатива, накопившегося в
+                                                    душе, прийти в хороший салон и доверить свою красоту
+                                                    чутким рукам мастера. Ламинирование ресниц BOOST UP Ботокс волос
 
-			<div class="w3-third w3-margin-bottom">
-				<ul class="w3-ul w3-border w3-center w3-hover-shadow">
-					<li class="w3-black">
-						<p class="w3-xlarge">Basic</p>
-					</li>
-					<li class="w3-padding-16"><b>10GB</b> Storage</li>
-					<li class="w3-padding-16"><b>10</b> Emails</li>
-					<li class="w3-padding-16"><b>10</b> Domains</li>
-					<li class="w3-padding-16"><b>Endless</b> Support</li>
-					<li class="w3-padding-16">
-						<h2 class="w3-wide">$ 10</h2>
-						<span class="w3-opacity">per month</span>
-					</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-btn w3-green w3-padding-large">Sign Up</button>
-					</li>
-				</ul>
-			</div>
+                                                </p>
+                                            </div>
+                                            <div class="w3-col w3-container w3-center" style="width:60%">
+                                                <img src="./assets/1.jpg" alt="1">
+                                            </div>
+                                        </div>
 
-			<div class="w3-third w3-margin-bottom">
-				<ul class="w3-ul w3-border w3-center w3-hover-shadow">
-					<li class="w3-dark-grey">
-						<p class="w3-xlarge">Pro</p>
-					</li>
-					<li class="w3-padding-16"><b>25GB</b> Storage</li>
-					<li class="w3-padding-16"><b>25</b> Emails</li>
-					<li class="w3-padding-16"><b>25</b> Domains</li>
-					<li class="w3-padding-16"><b>Endless</b> Support</li>
-					<li class="w3-padding-16">
-						<h2 class="w3-wide">$ 25</h2>
-						<span class="w3-opacity">per month</span>
-					</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-btn w3-green w3-padding-large">Sign Up</button>
-					</li>
-				</ul>
-			</div>
+                                    </div>
 
-			<div class="w3-third w3-margin-bottom">
-				<ul class="w3-ul w3-border w3-center w3-hover-shadow">
-					<li class="w3-black">
-						<p class="w3-xlarge">Premium</p>
-					</li>
-					<li class="w3-padding-16"><b>50GB</b> Storage</li>
-					<li class="w3-padding-16"><b>50</b> Emails</li>
-					<li class="w3-padding-16"><b>50</b> Domains</li>
-					<li class="w3-padding-16"><b>Endless</b> Support</li>
-					<li class="w3-padding-16">
-						<h2 class="w3-wide">$ 50</h2>
-						<span class="w3-opacity">per month</span>
-					</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-btn w3-green w3-padding-large">Sign Up</button>
-					</li>
-				</ul>
-			</div>
-		</div>
+                                </div>
+                            </div>
+                            <div class="main-   map"
+                                 style="border-color:#e5e4e4;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-top:65px;padding-left:0px;padding-right:0px;background-color:no;background-position:left top;background-repeat:repeat;background-image: url(http://www.alena-club.ru/wp-content/uploads/2013/10/fon2.png);">
+                                <style type="text/css" scoped="scoped">.fusion-fullwidth-5 {
+                                    padding-left: 0px !important;
+                                    padding-right: 0px !important;
+                                }</style>
+                                <div class="fusion-row"><h1
+                                        style="color: #ffffff; text-align: center; font-size: 30px !important;"><span
+                                        style="color: #a0ce4e;">Заходите к Нам. Узнайте, Что и Как. Мы Любим &#171;Новеньких&#187;!</span>
+                                </h1>
+                                    <div class="map">
+                                        <script type="text/javascript" charset="utf-8" async
+                                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=oD5S2HlP3w_bQSnd16wUDfPD4fUeb3ZJ&amp;width=940&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <div class="w3-row-padding" id="about" style="margin:0 -16px">
+                                    <div class="w3-center w3-padding-64">
+                                        <span class="w3-xlarge w3-padding-16">Более 100,000 Клиентов. Посмотри, Что Они Говорят о Нас?</span>
+                                        <br> <br>Мы любим наших клиентов, и всячески стараемся оправдать их ожидания.
+                                        Когда
+                                        Вы приходите к Нам, Вам Не Стоит
+                                        волноваться Ни о Чем!
+                                    </div>
 
-		<!-- Grid -->
-		<div class="w3-row-padding" id="about" style="margin:0 -16px">
-			<div class="w3-center w3-padding-64">
-				<span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
-			</div>
+                                    <div class="w3-third w3-margin-bottom">
+                                        <div class="w3-card-4">
+                                            <img style="width:100%" alt="Norway" src="./assets/1.jpg">
+                                            <div class="w3-container">
+                                                <h3> Вероника</h3>
+                                                <p class="w3-opacity">Маникюр, эпиляция</p>
+                                                <p>Я этот салон знаю не по наслышке, а сама в нём была и пользовалась
+                                                    услугами специалистов по маникюру и эпиляции! Мне
+                                                    очень понравилось как всё аккуратно делали и главное с заботой о
+                                                    клиенте, это наверное и оставило положительный оттенок
+                                                    в моем мнении о данном салоне! Ну и в целом, цены довольно таки
+                                                    приемлемые, коллектив доброжелательный, так что рекомендую!</p>
+                                                <p>
+                                                    <button class="comment-button w3-btn">Отзыв с Карты.Яндекс</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-			<div class="w3-third w3-margin-bottom">
-				<div class="w3-card-4">
-					<img style="width:100%" alt="Norway" src="img_avatar1.png">
-					<div class="w3-container">
-						<h3>John Doe</h3>
-						<p class="w3-opacity">CEO &amp; Founder</p>
-						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-						<p><button class="w3-btn">Contact</button></p>
-					</div>
-				</div>
-			</div>
+                                    <div class="w3-third w3-margin-bottom">
+                                        <div class="w3-card-4">
+                                            <img style="width:100%" alt="Norway" src="./assets/2.jpg">
+                                            <div class="w3-container">
+                                                <h3> Ольга</h3>
+                                                <p class="w3-opacity">Косметология</p>
+                                                <p>Шикарный салон, обслуживание и косметолог Юлиана!!!Давно не делала
+                                                    чистку, боялась что выйду вся красная и в слезах…..но
+                                                    всё прошло бережно, аккуратно и !главное! эффективно! Кожа сейчас
+                                                    как
+                                                    попочка ребеночка! я счастлива!!</p>
+                                                <p>
+                                                    <button class="comment-button w3-btn">Отзыв со Справочник
+                                                        Подольска
+                                                    </button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-			<div class="w3-third w3-margin-bottom">
-				<div class="w3-card-4">
-					<img style="width:100%" alt="Norway" src="img_avatar3.png">
-					<div class="w3-container">
-						<h3>Mike Ross</h3>
-						<p class="w3-opacity">Art Director</p>
-						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-						<p><button class="w3-btn">Contact</button></p>
-					</div>
-				</div>
-			</div>
+                                    <div class="w3-third w3-margin-bottom">
+                                        <div class="w3-card-4">
+                                            <img style="width:100%" alt="Norway" src="./assets/2.jpg">
+                                            <div class="w3-container">
+                                                <h3>Кристина</h3>
+                                                <p class="w3-opacity">Стрижка</p>
+                                                <p>Я этот салон знаю не по наслышке, а сама в нём была и пользовалась
+                                                    услугами специалистов по маникюру и эпиляции! Мне очень понравилось
+                                                    как
+                                                    всё аккуратно делали и главное с заботой о клиенте, это наверное и
+                                                    оставило положительный оттенок в моем мнении о данном салоне! Ну и в
+                                                    целом, цены довольно таки приемлемые, коллектив доброжелательный,
+                                                    так
+                                                    что рекомендую!</p>
+                                                <p>
+                                                    <button class="comment-button w3-btn">Отзыв с Карты.Яндекс</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback"
+                                 style="border-color:#e5e4e4;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:45px;padding-top:50px;padding-left:0px;padding-right:0px;background-color:no;">
+                                <style type="text/css" scoped="scoped">.fusion-fullwidth-7 {
+                                    padding-left: 0px !important;
+                                    padding-right: 0px !important;
+                                }</style>
+                                <div class="fusion-row"><h1
+                                        style="text-align: center; font-size: 30px !important; color: #a0ce4e !important;">
+                                    +7 (903) 257-91-61, +7 (4967) 68-04-99</h1>
+                                    <style type='text/css'>.reading-box-container-1 .element-bottomshadow:before, .reading-box-container-1 .element-bottomshadow:after {
+                                        opacity: 0.7;
+                                    }</style>
+                                    <div class="fusion-reading-box-container reading-box-container-1 zapis-tagbox"
+                                         style="margin-top:0px;margin-bottom:84px;">
+                                        <div class="reading-box element-bottomshadow"
+                                             style="background-color:#ffffff;border-width:1px;border-color:#e5e4e4;border-left-width:3px;border-left-color:#a0ce4e;border-style:solid;">
+                                            <div class="reading-box-description">
+                                                <h2>Советуем вам перед приходом записаться.</h2>
+                                                <p>Мы не хотим, чтоб что-нибудь омрачило
+                                                    ваш
+                                                    визит к нам, в спортивно-оздоровительный центр «Алена».</p>
+                                            </div>
+                                            <div class="reading-box-additional"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  <!-- fusion-row -->
+        </div>  <!-- #main -->
 
-			<div class="w3-third w3-margin-bottom">
-				<div class="w3-card-4">
-					<img style="width:100%" alt="Norway" src="img_avatar6.png">
-					<div class="w3-container">
-						<h3>Jane Doe</h3>
-						<p class="w3-opacity">Designer</p>
-						<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-						<p><button class="w3-btn">Contact</button></p>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<!-- Contact -->
-		<div class="w3-center w3-padding-64" id="contact">
-			<span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Свяжитесь с нами</span>
-		</div>
+        <!-- Grid -->
+        <!--  <div class="w3-row">
+              <div class="w3-center w3-padding-64">
+                  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+              </div>
+              <div class="w3-col l3 m6 w3-light-grey w3-padding-large">
+                  <h3>Design</h3>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              </div>
 
-		<form>
-			<div class="w3-group">
-				<label>Имя</label>
-				<input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text">
-			</div>
-			<div class="w3-group">
-				<label>Емейл</label>
-				<input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text">
-			</div>
-			<button class="w3-btn w3-btn-block w3-padding-12" type="button">Отправить</button>
-		</form>
+              <div class="w3-col l3 m6 w3-grey w3-padding-large">
+                  <h3>Branding</h3>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              </div>
 
-	</div>
+              <div class="w3-col l3 m6 w3-dark-grey w3-padding-large">
+                  <h3>Consultation</h3>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              </div>
 
-	<!-- Footer -->
-	<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-		<h4>Footer</h4>
-		<p>Creators:<a href="https://github.com/Hubses/BeautySaloon" target="_blank">Hubses</a></p>
-	</footer>
+              <div class="w3-col l3 m6 w3-black w3-padding-large">
+                  <h3>Promises</h3>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              </div>
+          </div> -->
 
-	<script>
-// Slideshow script
-var slideIndex = 1;
-showDivs(slideIndex);
+        <!-- Grid -->
+        <!--  <div class="w3-row-padding" id="plans" style="margin:0 -16px">
+              <div class="w3-center w3-padding-64">
+                  <h3>Pricing Plans</h3>
+                  <p>Choose a pricing plan that fits your needs.</p>
+              </div>
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+              <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                      <li class="w3-black">
+                          <p class="w3-xlarge">Basic</p>
+                      </li>
+                      <li class="w3-padding-16"><b>10GB</b> Storage</li>
+                      <li class="w3-padding-16"><b>10</b> Emails</li>
+                      <li class="w3-padding-16"><b>10</b> Domains</li>
+                      <li class="w3-padding-16"><b>Endless</b> Support</li>
+                      <li class="w3-padding-16">
+                          <h2 class="w3-wide">$ 10</h2>
+                          <span class="w3-opacity">per month</span>
+                      </li>
+                      <li class="w3-light-grey w3-padding-24">
+                          <button class="w3-btn w3-green w3-padding-large">Sign Up</button>
+                      </li>
+                  </ul>
+              </div>
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
+              <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                      <li class="w3-dark-grey">
+                          <p class="w3-xlarge">Pro</p>
+                      </li>
+                      <li class="w3-padding-16"><b>25GB</b> Storage</li>
+                      <li class="w3-padding-16"><b>25</b> Emails</li>
+                      <li class="w3-padding-16"><b>25</b> Domains</li>
+                      <li class="w3-padding-16"><b>Endless</b> Support</li>
+                      <li class="w3-padding-16">
+                          <h2 class="w3-wide">$ 25</h2>
+                          <span class="w3-opacity">per month</span>
+                      </li>
+                      <li class="w3-light-grey w3-padding-24">
+                          <button class="w3-btn w3-green w3-padding-large">Sign Up</button>
+                      </li>
+                  </ul>
+              </div>
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demodots");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
+              <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                      <li class="w3-black">
+                          <p class="w3-xlarge">Premium</p>
+                      </li>
+                      <li class="w3-padding-16"><b>50GB</b> Storage</li>
+                      <li class="w3-padding-16"><b>50</b> Emails</li>
+                      <li class="w3-padding-16"><b>50</b> Domains</li>
+                      <li class="w3-padding-16"><b>Endless</b> Support</li>
+                      <li class="w3-padding-16">
+                          <h2 class="w3-wide">$ 50</h2>
+                          <span class="w3-opacity">per month</span>
+                      </li>
+                      <li class="w3-light-grey w3-padding-24">
+                          <button class="w3-btn w3-green w3-padding-large">Sign Up</button>
+                      </li>
+                  </ul>
+              </div>
+          </div> -->
+
+        <!-- Grid -->
+        <!-- <div class="w3-row-padding" id="about" style="margin:0 -16px">
+             <div class="w3-center w3-padding-64">
+                 <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+             </div>
+
+             <div class="w3-third w3-margin-bottom">
+                 <div class="w3-card-4">
+                     <img style="width:100%" alt="Norway" src="img_avatar1.png">
+                     <div class="w3-container">
+                         <h3>John Doe</h3>
+                         <p class="w3-opacity">CEO &amp; Founder</p>
+                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                             elementum.</p>
+                         <p>
+                             <button class="w3-btn">Contact</button>
+                         </p>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="w3-third w3-margin-bottom">
+                 <div class="w3-card-4">
+                     <img style="width:100%" alt="Norway" src="img_avatar3.png">
+                     <div class="w3-container">
+                         <h3>Mike Ross</h3>
+                         <p class="w3-opacity">Art Director</p>
+                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                             elementum.</p>
+                         <p>
+                             <button class="w3-btn">Contact</button>
+                         </p>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="w3-third w3-margin-bottom">
+                 <div class="w3-card-4">
+                     <img style="width:100%" alt="Norway" src="img_avatar6.png">
+                     <div class="w3-container">
+                         <h3>Jane Doe</h3>
+                         <p class="w3-opacity">Designer</p>
+                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                             elementum.</p>
+                         <p>
+                             <button class="w3-btn">Contact</button>
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div> -->
+
+        <!-- Contact -->
+        <!--  <div class="w3-center w3-padding-64" id="contact">
+              <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Свяжитесь с нами</span>
+          </div>
+
+          <form>
+              <div class="w3-group">
+                  <label>Имя</label>
+                  <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text">
+              </div>
+              <div class="w3-group">
+                  <label>Емейл</label>
+                  <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text">
+              </div>
+              <button class="w3-btn w3-btn-block w3-padding-12" type="button">Отправить</button>
+          </form>
+
+      </div> -->
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+            <h4>Footer</h4>
+            <p>Creators:<a href="https://github.com/Hubses/BeautySaloon" target="_blank">Hubses</a></p>
+        </footer>
+
+        <script>
+            // Slideshow script
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demodots");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+                x[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " w3-white";
+            }
+        </script>
 
 
 </body>
