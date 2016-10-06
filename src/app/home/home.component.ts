@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 
 
+import { AlenaNavbar } from '../navbar/navbar.component';
  // import { BhMenu } from '../menu/menu.component';
  // import { BhContent } from '../content/content.component';
 
@@ -21,7 +22,7 @@ import { Component } from "@angular/core";
 @Component({
   selector:"alena-home",
   template:`
-  <h2>HEllo!</h2>
+  <alena-menu__navbar></alena-menu__navbar>
   `
 })
 export class Home{
