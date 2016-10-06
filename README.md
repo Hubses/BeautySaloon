@@ -4,9 +4,9 @@ Rewrite site to angular 2 from wordpress
 #launch from dev
 
 1) Clone or dounload this project and unzip him. 
-
+ windows example
 ```
-git.exe clone --progress -v "https://github.com/Hubses/BH-BeautySaloon.git" "<Local Path (Example: D:/)>" - windows
+git.exe clone --progress -v "https://github.com/Hubses/BH-BeautySaloon.git" "<Local Path (Example: D:/)>"
 
 ```
 
