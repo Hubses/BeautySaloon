@@ -4,7 +4,8 @@ Rewrite site to angular 2 from wordpress
 #launch from dev
 
 1) Clone or dounload this project and unzip him. 
- windows example
+##windows example
+
 ```
 git.exe clone --progress -v "https://github.com/Hubses/BH-BeautySaloon.git" "<Local Path (Example: D:/)>"
 
@@ -15,8 +16,9 @@ git.exe checkout -b dev remotes/origin/dev
 
 ```
 
-2) Open cmd in project location
-3) Write in console 
+2) Open cmd in project location *same paragraph*
+
+3) Write in console *same paragraph*
 
 ```
 npm i
