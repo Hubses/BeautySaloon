@@ -16,9 +16,9 @@ git.exe checkout -b dev remotes/origin/dev
 
 ```
 
-2) Open cmd in project location *same paragraph*
+2) Open cmd in project location 
 
-3) Write in console *same paragraph*
+3) Write in console 
 
 ```
 npm i
@@ -30,6 +30,6 @@ npm start
 ```
 
 5) Open your browser and write in address
-
+```
 locahost:8000/
-
+```
