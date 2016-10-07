@@ -6,4 +6,4 @@ import { Home } from './home/home.component';
   selector: 'my-app',
   template: `<alena-home></alena-home>`
 })
-export class AppComponent { }
+export class AppComponent { }   

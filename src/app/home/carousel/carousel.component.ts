@@ -188,7 +188,7 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
-  }
+  }  
 }
 `
 ]
