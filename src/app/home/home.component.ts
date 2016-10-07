@@ -2,28 +2,14 @@ import { Component } from "@angular/core";
 
 
 import { AlenaNavbar } from '../navbar/navbar.component';
- // import { BhMenu } from '../menu/menu.component';
- // import { BhContent } from '../content/content.component';
-
-// @Component({
-//   selector: "bh-home",
-//   template: `
-//     <bh-menu></bh-menu>
-//     <bh-content></bh-content>
-//   `,
-//   directives: [
-//     BhMenu,
-//     BhContent
-//   ]
-// })
-// export class Home {
-// }
+import { AlenaCarousel } from './carousel/carousel.component';
 
 @Component({
-  selector:"alena-home",
-  template:`
+  selector: "alena-home",
+  template: `
   <alena-menu__navbar></alena-menu__navbar>
+  <alena-home__carousel></alena-home__carousel>
   `
 })
-export class Home{
+export class Home {
 }
