@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'alena-menu__navbar',
-  template: 
-`
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    selector: 'alena-menu__navbar',
+    template:
+    `
+<nav class="navbar navbar-inverse navbar-fixed-top center" role="navigation" style="Width:70%; margin-left:15%">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -87,7 +87,9 @@ import { Component } from '@angular/core';
         </div>
         <!-- /.container -->
     </nav>
-`
+`,
+    styles: [
+    ]
 })
 export class AlenaNavbar { }
 
