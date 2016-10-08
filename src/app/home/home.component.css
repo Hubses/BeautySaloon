@@ -25,7 +25,7 @@
     padding-right: 17px;
     border: 0px;
     margin-top: 15px;
-    margin-right: 30px;
+    margin-right: 25px;
     margin-bottom: 20px;
 }
 
@@ -39,7 +39,7 @@
     padding-right: 17px;
     border: 0px;
     margin-top: 15px;
-    margin-right: 30px;
+    margin-right: 25px;
     margin-bottom: 20px;
 }
 
@@ -50,4 +50,28 @@
 
 .alena-home__substring {
     color: #a0ce4e;
+}
+
+.alena-home__row {
+    background: white;
+    width: 70%;
+    font-size: 13px;
+    margin-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.alena-home__row__card__img {
+    width: 100%;
+}
+
+.alena-home__line {
+    margin: 0px;
+    width: 70%;
+    margin-left: 15%;
+    border-top-width: 1px;
+}
+
+.alena-home__banner__img{
+    margin-bottom: 20px;
 }
