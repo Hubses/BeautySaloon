@@ -1,11 +1,12 @@
 import { Component } from "@angular/core";
 
+import './carousel.component.css';
 
 @Component({
     selector: "alena-home__carousel",
     template:
     `
-      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="Width:70%; margin-left:15%">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

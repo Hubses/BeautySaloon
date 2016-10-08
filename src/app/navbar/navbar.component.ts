@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import './navbar.component.css';
+
 @Component({
     selector: 'alena-menu__navbar',
     template:
     `
-<nav class="navbar navbar-inverse navbar-fixed-top center" role="navigation" style="Width:70%; margin-left:15%">
+<nav class="navbar navbar-inverse navbar-fixed-top center" role="navigation" >
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
