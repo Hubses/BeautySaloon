@@ -131,10 +131,10 @@
 .alena-home__feedback__row__card__feeadback {
     background: #f6f6f6;
     padding: 25px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: left;
     margin-bottom: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .alena-home__feedback__row__card__author {
@@ -148,4 +148,29 @@
     width: 28px;
     height: 28px;
     font-size: 20px;
+}
+
+.alena-home__contact-numbers {
+    background: white;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.alena-home__contact-numbers__numbers {
+    color: #a0ce4e;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.alena-home__contact-numbers__feedback {
+    border-width:1px;
+    border-color:#e5e4e4;
+    border-left-width:3px;
+    border-left-color:#a0ce4e;
+    border-style:solid;
+    width: 90%;
+    margin-left: 5%;
 }

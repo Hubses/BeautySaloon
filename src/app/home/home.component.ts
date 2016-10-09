@@ -121,6 +121,13 @@ import './home.component.css'
         </div>
     </div>
     <hr class="alena-home__line">
+    <div class="alena-home__contact-numbers">
+        <h1 class="alena-home__contact-numbers__numbers">+7 (903) 257-91-61, +7 (4967) 68-04-99</h1>
+        <div class="alena-home__contact-numbers__feedback">
+            <h2>Советуем вам перед приходом записаться.</h2>
+            <p>Мы не хотим, чтоб что-нибудь омрачило ваш визит к нам, в спортивно-оздоровительный центр «Алена».</p>
+        </div>
+    </div>
   `
 })
 export class Home {
