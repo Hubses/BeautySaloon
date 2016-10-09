@@ -72,6 +72,27 @@
     border-top-width: 1px;
 }
 
-.alena-home__banner__img{
+.alena-home__banner__img {
     margin-bottom: 20px;
+}
+
+.alena-home__map {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 60px;
+    background-image: url(http://www.alena-club.ru/wp-content/uploads/2013/10/fon2.png);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.alena-home__map__header {
+    color: #a0ce4e;
+    font-size: 30px;
+}
+
+.alena-home__map__map {
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 10px;
 }

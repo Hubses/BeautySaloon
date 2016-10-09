@@ -2,7 +2,6 @@ import {Component} from "@angular/core";
 
 import {AlenaCarousel} from './carousel/carousel.component';
 import './home.component.css'
-
 @Component({
     selector: "alena-home",
     template: `
@@ -61,6 +60,11 @@ import './home.component.css'
         <p id="alena-home__banner__footer">Более <span class="alena-home__substring">100,000 довольных клиентов</span>. 
             «Алена» — ваш компас в мире красоты и здоровья! Заходите к нам,
             <span class="alena-home__substring">Мы Любим говорить</span> «Привет».</p>
+    </div>
+    <hr class="alena-home__line">
+    <div class="alena-home__map">
+        <span class="alena-home__map__header">Заходите к Нам. Узнайте, Что и Как. Мы Любим «Новеньких»!</span>
+        <div id="map" class="alena-home__map__map"></div>
     </div>
     <hr class="alena-home__line">
   `
