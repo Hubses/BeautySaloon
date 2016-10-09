@@ -67,7 +67,63 @@ import './home.component.css'
         <div id="map" class="alena-home__map__map"></div>
     </div>
     <hr class="alena-home__line">
+    <div class="alena-home__feedback">
+        <h1 class="alena-home__feedback__header">Более 100,000 Клиентов. Посмотри, Что Они Говорят о Нас?</h1>
+        <p class="alena-home__feedback__text">
+            Мы <span class="alena-home__feedback__text__substring" data-toggle="tooltip" data-placement="top" 
+            title="Разумеется, а как иначе?"><strong>любим наших клиентов</strong>
+            </span>, и всячески стараемся оправдать их ожидания. 
+            Когда Вы приходите к Нам, <span class="alena-home__feedback__text__substring" data-toggle="tooltip" 
+            data-placement="top" title="Мы стримимся радовать наших посетителей">
+            <strong>Вам Не Стоит волноваться</strong></span> Ни о Чем!</p>
+        <div class="alena-home__feedback__row row">
+            <div class="alena-home__feedback__row__card col-sm-12 col-md-4">
+                <div class="caption">
+                    <p class="alena-home__feedback__row__card__feeadback">Я этот салон знаю не по наслышке, а сама в нём была и пользовалась услугами специалистов по маникюру
+                    и эпиляции! Мне очень понравилось как всё аккуратно делали и главное с заботой о клиенте, это наверное 
+                    и оставило положительный оттенок в моем мнении о данном салоне! Ну и в целом, цены довольно таки 
+                    приемлемые, коллектив доброжелательный, так что рекомендую!<br>(Отзыв с <a title="Отзыв оставлен на Карты.Яндекс." 
+                    href="http://maps.yandex.ru/org/1051129104/" rel="nofollow">Карты.Яндекс</a>)</p>
+                    <div class="alena-home__feedback__row__card__author">
+                        <span class="icon-user glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span> <strong>Вероника</strong>, Маникюр, эпиляция</span>
+                    </div>
+                </div>
+            </div>
+            <div class="alena-home__feedback__row__card col-sm-12 col-md-4">
+                <div class="caption">
+                    <p class="alena-home__feedback__row__card__feeadback">Шикарный салон, обслуживание и косметолог Юлиана!!!
+                    Давно не делала чистку, боялась что выйду вся красная и в слезах…..но всё прошло бережно, аккуратно 
+                    и !главное! эффективно! Кожа сейчас как попочка ребеночка! я счастлива!!<br>(Отзыв с <a title="Отзыв 
+                    оставлен на Справочник Подольска." href="http://podolsk.spravker.ru/fitnes-kluby/tsentr-alena.htm"
+                     rel="nofollow">Справочник Подольска</a>)</p>
+                    <div class="alena-home__feedback__row__card__author">
+                        <span class="icon-user glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span> <strong>Ольга</strong>, Косметология</span>
+                    </div>
+                </div>
+            </div>
+            <div class="alena-home__feedback__row__card col-sm-12 col-md-4">
+                <div class="caption">
+                    <p class="alena-home__feedback__row__card__feeadback">Я этот салон знаю не по наслышке,
+                     а сама в нём была и пользовалась услугами специалистов по маникюру и эпиляции!
+                      Мне очень понравилось как всё аккуратно делали и главное с заботой о клиенте,
+                       это наверное и оставило положительный оттенок в моем мнении о данном салоне! Ну и в целом,
+                        цены довольно таки приемлемые, коллектив доброжелательный, так что рекомендую!
+                        <br>(Отзыв с <a title="Отзыв оставлен на Карты.Яндекс." 
+                        href="http://maps.yandex.ru/org/1051129104/" rel="nofollow">Карты.Яндекс</a>)</p>
+                    <div class="alena-home__feedback__row__card__author">
+                        <span class="icon-user glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span> <strong>Кристина</strong>, Стрижка</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="alena-home__line">
   `
 })
 export class Home {
+    
 }
+
