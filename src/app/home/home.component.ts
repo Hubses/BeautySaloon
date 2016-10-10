@@ -1,7 +1,8 @@
 import {Component} from "@angular/core";
 
 import {AlenaCarousel} from './carousel/carousel.component';
-import './home.component.css'
+import './home.component.css';
+
 @Component({
     selector: "alena-home",
     template: `
@@ -128,7 +129,39 @@ import './home.component.css'
             <p>Мы не хотим, чтоб что-нибудь омрачило ваш визит к нам, в спортивно-оздоровительный центр «Алена».</p>
         </div>
     </div>
-  `
+  `,
+  styles:[
+`
+@media screen and (max-width: 950px) {
+
+  /* Bump up size of carousel content */
+  .alena-home__banner  {
+    width: 100%;
+   margin-left: 0%;
+  }
+  .alena-home__row{
+ width: 100%;
+   margin-left: 0%;
+  }
+.alena-home__line{
+ width: 100%;
+   margin-left: 0%;
+   }
+    .alena-home__map{
+ width: 100%;
+   margin-left: 0%;
+    }
+    .alena-home__feedback{
+ width: 100%;
+   margin-left: 0%;
+     }
+    .alena-home__contact-numbers{
+ width: 100%;
+   margin-left: 0%;
+      }
+}
+`
+  ]
 })
 export class Home {
     

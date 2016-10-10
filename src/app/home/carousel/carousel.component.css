@@ -3,3 +3,12 @@
     margin-left: 15%;
     margin-bottom: 0px;
 }
+
+@media screen and (max-width: 950px) {
+
+  /* Bump up size of carousel content */
+  #myCarousel  {
+    width: 100%;
+   margin-left: 0%;
+  }
+}

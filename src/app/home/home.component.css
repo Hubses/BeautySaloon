@@ -163,6 +163,7 @@
     color: #a0ce4e;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .alena-home__contact-numbers__feedback {
@@ -174,3 +175,4 @@
     width: 90%;
     margin-left: 5%;
 }
+
