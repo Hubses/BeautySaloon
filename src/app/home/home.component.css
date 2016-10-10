@@ -3,8 +3,6 @@
     text-align: center;
     padding-top: 5%;
     padding-bottom: 20px;
-    width: 70%;
-    margin-left: 15%;
 }
 
 #alena-home__banner__header {
@@ -54,11 +52,15 @@
 
 .alena-home__row {
     background: white;
-    width: 70%;
+   
     font-size: 13px;
-    margin-left: 15%;
+    
     padding-top: 60px;
     padding-bottom: 20px;
+}
+.alena-home__row.row{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .alena-home__row__card__img {
@@ -67,8 +69,6 @@
 
 .alena-home__line {
     margin: 0px;
-    width: 70%;
-    margin-left: 15%;
     border-top-width: 1px;
 }
 
@@ -77,8 +77,6 @@
 }
 
 .alena-home__map {
-    width: 70%;
-    margin-left: 15%;
     padding-top: 60px;
     background-image: url(http://www.alena-club.ru/wp-content/uploads/2013/10/fon2.png);
     text-align: center;
@@ -101,8 +99,8 @@
 
 .alena-home__feedback {
     background: white;
-    width: 70%;
-    margin-left: 15%;
+    
+    
     padding-top: 60px;
     padding-bottom: 20px;
     text-align: center;
@@ -152,8 +150,7 @@
 
 .alena-home__contact-numbers {
     background: white;
-    width: 70%;
-    margin-left: 15%;
+    
     padding-top: 60px;
     text-align: center;
     padding-bottom: 20px;
@@ -175,4 +172,3 @@
     width: 90%;
     margin-left: 5%;
 }
-

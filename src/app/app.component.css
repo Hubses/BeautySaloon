@@ -1,4 +1,11 @@
-.alena-home {
+.page-wrapper__limit{
     width: 70%;
-    margin-left: 15%;
+    margin-left: 15%
+}
+
+@media screen and (max-width: 950px) {
+    .page-wrapper__limit{
+        width: 100%;
+        margin-left: 0%;
+    }
 }
