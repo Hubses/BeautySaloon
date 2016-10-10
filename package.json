@@ -4,6 +4,7 @@
   "description": "Rewrite site to angular 2 from wordpress",
   "scripts": {
     "postinstall": "npm i local-web-server -g",
+    "prestart": "webpack",
     "start": "ws -s index.html"
   },
   "repository": {
